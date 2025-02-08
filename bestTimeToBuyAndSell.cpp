@@ -1,4 +1,3 @@
-// this is medium || question
 #include <iostream>
 #include <vector>
 #include <climits>
