@@ -26,13 +26,6 @@ void reverse_it(vector <int> &v){
 int main(){
     int t;
     vector <int> v1 = {1,2,3,6,8,9};
-    // cout<< "Enter target: ";
-    // cin >> t;
-    // int result = linear_search(v1, t);
-    // if (result == -1){
-    //     cout << "Not Found";}
-    // else{
-    //     cout << result;}
     reverse_it(v1);
     for (int i=0;i<v1.size();i++){
         cout<< v1.at(i) <<" ";
